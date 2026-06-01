@@ -27,3 +27,5 @@ volumes:
 
 networks:
   quick_serve_network:
+    external: true
+    name: quickserve-platform_quick_serve_network
